@@ -1,8 +1,6 @@
-﻿Electricity Consumption Forecasting for a Single Day (15-Minute
-Intervals)
-================
+Electricity Consumption Forecasting for a Single Day (15-Minute Intervals)
 
-Nikolai Len
+Author: Nikolai Len
 
 Data ScienceTech Institute, 2025
 

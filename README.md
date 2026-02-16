@@ -28,10 +28,14 @@ Language: R
 - NNAR variants: temperature only, temperature + daytime features, and finetuned NNAR.
 - Tree-based models: Random Forest and XGBoost.
 
-## Spoiler: Best Model
+## Best-Performing Model
 
 - Best result in the report is **Manual ARIMA with temperature regressor** (`ARIMA(0,1,9)(1,1,1)[96] + temp`).
 - Reported test RMSE: **8.066566**.
+- Training set MAE: **5.364769**.
+- Training set MAPE: **2.083983%**.
+- Training set MASE: **0.458313**.
+- Residual Ljung-Box test p-value: **7.839e-12** (residual autocorrelation still present).
 - Forecast output from the selected final model is in `output.xlsx`.
 
 ## Notes
